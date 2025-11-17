@@ -11,9 +11,11 @@ TypeScript-এ interface আর type দুটোই object-এর structure ব
 2. Extend করতে হলে intersection ব্যবহার করতে হয়।
 3. Classes implement করতে পারে না।
 
-**Example**
+**Example:-**
+```ts
 interface Person {
     name: string;
     age: number;
 }
 type Employee = Person & { id: number };
+```
