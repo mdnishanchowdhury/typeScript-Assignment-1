@@ -1,4 +1,5 @@
 1. What are some differences between interfaces and types in TypeScript?
+   
 TypeScript-এ interface আর type দুটোই object-এর structure বা data shape define করার জন্য ব্যবহার করা হয়। তাদের মধ্যে পার্থক্য:-
 
 **Interface:**
