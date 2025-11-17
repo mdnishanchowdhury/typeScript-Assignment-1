@@ -20,3 +20,16 @@ interface Person {
 }
 type Employee = Person & { id: number };
 ```
+2. What is the use of the keyof keyword in TypeScript? Provide an example?
+
+keyof দিয়ে আমরা কোনো object বা interface-এর সব key কে একত্রিত করে একটি union type হিসেবে ব্যবহার করতে পারি।
+
+**Example:-**
+```ts
+interface User {
+    id: number;
+    name: string;
+    email: string;
+}
+type UserKeys = keyof User; 
+```
